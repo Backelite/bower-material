@@ -1051,6 +1051,8 @@ function MdAutocomplete () {
                 ng-if="!floatingLabel"\
                 autocomplete="off"\
                 ng-required="$mdAutocompleteCtrl.isRequired"\
+                ng-minlength="inputMinlength"\
+                ng-maxlength="inputMaxlength"\
                 ng-disabled="$mdAutocompleteCtrl.isDisabled"\
                 ng-model="$mdAutocompleteCtrl.scope.searchText"\
                 ng-keydown="$mdAutocompleteCtrl.keydown($event)"\
